@@ -35,6 +35,11 @@ Route::middleware([
     Route::get('/configuraciones/usuarios', function () {
         return view('configuraciones/usuarios');
     })->name('usuarios');
+
+    //usuarios
+    Route::get('/lebennin', function () {
+        return view('secciones/alianza');
+    })->name('lebennin');
 });
 
 

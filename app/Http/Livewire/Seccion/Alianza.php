@@ -11,6 +11,10 @@ class Alianza extends Component
 
     public function render()
     {
-        return view('livewire.seccion.alianza');
+        $alianza = $this->alianza();        
+
+        return view('livewire.seccion.alianza',[
+            'lebennin' => $alianza
+        ]);
     }
 }

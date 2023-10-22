@@ -5,8 +5,17 @@ namespace App\Traits\Albiononline;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 
-trait Alianza
+trait Lebennin
 {
+     /*
+    |--------------------------------------------------------------------------
+    | Consulta a la api de albion los nombres e ID de los gremios que 
+    | conforman la alianza
+    |--------------------------------------------------------------------------
+    | Ingresan el URL de la api de albion y el ID de Lebennin
+    | Retorna la lista de gremios 
+    */
+
     public function alianza()
     {
         try {
